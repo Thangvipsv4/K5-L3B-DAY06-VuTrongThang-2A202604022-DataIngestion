@@ -1,0 +1,61 @@
+﻿question_id,split,config,strategy,filters,hit_at_1,evidence_hit_at_3,retrieval_time_ms
+Q01,dev,A,fixed_size,null,1,0,30.883
+Q01,dev,B,by_paragraph,null,1,0,23.114
+Q01,dev,C,by_paragraph,null,1,0,23.22
+Q02,dev,A,fixed_size,null,1,1,26.652
+Q02,dev,B,by_paragraph,null,1,1,22.546
+Q02,dev,C,by_paragraph,"{""topic"": ""1-Introduction""}",1,1,36.627
+Q03,dev,A,fixed_size,null,1,1,27.506
+Q03,dev,B,by_paragraph,null,1,0,21.206
+Q03,dev,C,by_paragraph,null,1,0,23.464
+Q04,dev,A,fixed_size,null,1,1,28.237
+Q04,dev,B,by_paragraph,null,1,0,25.837
+Q04,dev,C,by_paragraph,null,1,0,28.275
+Q05,dev,A,fixed_size,null,1,1,28.225
+Q05,dev,B,by_paragraph,null,1,1,25.307
+Q05,dev,C,by_paragraph,null,1,1,45.661
+Q06,dev,A,fixed_size,null,1,0,33.608
+Q06,dev,B,by_paragraph,null,1,1,22.279
+Q06,dev,C,by_paragraph,null,1,1,25.098
+Q07,dev,A,fixed_size,null,1,1,27.322
+Q07,dev,B,by_paragraph,null,1,1,21.985
+Q07,dev,C,by_paragraph,"{""topic"": ""3-Web-App""}",1,1,20.448
+Q08,dev,A,fixed_size,null,0,1,27.428
+Q08,dev,B,by_paragraph,null,0,1,23.664
+Q08,dev,C,by_paragraph,null,0,1,24.971
+Q09,dev,A,fixed_size,null,1,0,47.093
+Q09,dev,B,by_paragraph,null,1,0,28.139
+Q09,dev,C,by_paragraph,null,1,0,27.387
+Q10,dev,A,fixed_size,null,1,1,27.774
+Q10,dev,B,by_paragraph,null,1,1,22.581
+Q10,dev,C,by_paragraph,null,1,1,25.021
+Q11,dev,A,fixed_size,null,1,1,28.776
+Q11,dev,B,by_paragraph,null,1,1,23.101
+Q11,dev,C,by_paragraph,null,1,1,67.559
+Q12,dev,A,fixed_size,null,1,1,46.199
+Q12,dev,B,by_paragraph,null,1,1,42.841
+Q12,dev,C,by_paragraph,null,1,1,31.557
+Q13,dev,A,fixed_size,null,1,1,26.889
+Q13,dev,B,by_paragraph,null,1,1,20.369
+Q13,dev,C,by_paragraph,null,1,1,23.518
+Q14,dev,A,fixed_size,null,1,1,28.648
+Q14,dev,B,by_paragraph,null,1,1,23.778
+Q14,dev,C,by_paragraph,null,1,1,21.026
+Q15,dev,A,fixed_size,null,1,1,27.228
+Q15,dev,B,by_paragraph,null,1,1,42.905
+Q15,dev,C,by_paragraph,"{""topic"": ""9-Real-World""}",1,1,19.357
+Q16,test,A,fixed_size,null,1,1,30.82
+Q16,test,B,by_paragraph,null,1,0,28.142
+Q16,test,C,by_paragraph,"{""topic"": ""2-Regression""}",1,0,23.933
+Q17,test,A,fixed_size,null,1,1,26.973
+Q17,test,B,by_paragraph,null,1,0,23.254
+Q17,test,C,by_paragraph,"{""topic"": ""4-Classification""}",1,0,21.169
+Q18,test,A,fixed_size,null,0,1,24.49
+Q18,test,B,by_paragraph,null,0,1,23.128
+Q18,test,C,by_paragraph,"{""topic"": ""6-NLP""}",0,1,19.382
+Q19,test,A,fixed_size,null,1,1,25.911
+Q19,test,B,by_paragraph,null,0,0,20.632
+Q19,test,C,by_paragraph,"{""topic"": ""7-TimeSeries""}",0,0,20.903
+Q20,test,A,fixed_size,null,1,1,45.714
+Q20,test,B,by_paragraph,null,0,0,23.442
+Q20,test,C,by_paragraph,"{""topic"": ""8-Reinforcement""}",0,0,23.994

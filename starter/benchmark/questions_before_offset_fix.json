@@ -1,0 +1,397 @@
+{
+  "benchmark_version": "1.0",
+  "corpus": "Microsoft ML-For-Beginners",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "notes": [
+    "Questions and gold answers are based on the uploaded evidence_candidates.csv.",
+    "Gold evidence offsets are character offsets in the source Markdown file, not physical PDF page numbers.",
+    "The test split contains 5 questions. Keep it unchanged while tuning retrieval.",
+    "For configuration C, apply metadata_filter only when it is not null. Configurations A and B should run without filters.",
+    "For Evidence Hit@3, define a hit as a retrieved chunk from the gold document whose source character range overlaps the gold evidence range. If chunk offsets are unavailable in the stored result, use document_id match as a weaker proxy and disclose that choice."
+  ],
+  "counts": {
+    "total": 20,
+    "dev": 15,
+    "test": 5,
+    "metadata_filter_questions": 8,
+    "metadata_filter_test_questions": 5
+  },
+  "questions": [
+    {
+      "question_id": "Q01",
+      "split": "dev",
+      "question": "According to the introductory lesson, what is machine learning concerned with doing?",
+      "gold_answer": "Machine learning uses specialized algorithms to uncover meaningful information and hidden patterns from perceived data, supporting rational decision-making.",
+      "topic": "1-Introduction",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "8bea3af83bed",
+          "title": "Introduction to machine learning",
+          "source_path": "1-Introduction\\1-intro-to-ML\\README.md",
+          "paragraph_index": 24,
+          "start_char": 4762,
+          "end_char": 5056
+        }
+      ]
+    },
+    {
+      "question_id": "Q02",
+      "split": "dev",
+      "question": "Which earlier mathematical or statistical ideas are identified in the history lesson as foundations relevant to machine learning, and what is one use mentioned for each?",
+      "gold_answer": "The lesson mentions Bayes Theorem and its predecessors as supporting inference based on prior knowledge, Least Square Theory as helping with data fitting, Markov Chains as describing sequences of events based on previous states, and the Perceptron as a linear classifier underlying advances in deep learning.",
+      "topic": "1-Introduction",
+      "metadata_filter": {
+        "topic": "1-Introduction"
+      },
+      "gold_evidence": [
+        {
+          "document_id": "b5314f9aa71e",
+          "title": "History of machine learning",
+          "source_path": "1-Introduction\\2-history-of-ML\\README.md",
+          "paragraph_index": 10,
+          "start_char": 1408,
+          "end_char": 2211
+        }
+      ]
+    },
+    {
+      "question_id": "Q03",
+      "split": "dev",
+      "question": "What are the main stages of the machine-learning process listed in the techniques lesson?",
+      "gold_answer": "The listed stages are: decide on the question; collect and prepare data; choose a training method; train the model; evaluate it on previously unseen test data; tune parameters; and make predictions with new inputs.",
+      "topic": "1-Introduction",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "65b5f03fbe7b",
+          "title": "Techniques of Machine Learning",
+          "source_path": "1-Introduction\\4-techniques-of-ML\\README.md",
+          "paragraph_index": 9,
+          "start_char": 900,
+          "end_char": 2487
+        }
+      ]
+    },
+    {
+      "question_id": "Q04",
+      "split": "dev",
+      "question": "What five categories of fairness-related harms are listed in the responsible-AI lesson?",
+      "gold_answer": "The five categories are allocation, quality of service, denigration, over- or under-representation, and stereotyping.",
+      "topic": "1-Introduction",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "076f48311e5f",
+          "title": "Building Machine Learning solutions with responsible AI",
+          "source_path": "1-Introduction\\3-fairness\\README.md",
+          "paragraph_index": 17,
+          "start_char": 3357,
+          "end_char": 4368
+        }
+      ]
+    },
+    {
+      "question_id": "Q05",
+      "split": "dev",
+      "question": "How does the regression lesson describe the purpose of linear regression?",
+      "gold_answer": "Linear regression is used to predict a numerical value. It finds a straight line that best represents the relationship between input features and the output.",
+      "topic": "2-Regression",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "cbadfe18a54d",
+          "title": "Build a regression model using Scikit-learn: regression four ways",
+          "source_path": "2-Regression\\3-Linear\\README.md",
+          "paragraph_index": 3,
+          "start_char": 87,
+          "end_char": 322
+        }
+      ]
+    },
+    {
+      "question_id": "Q06",
+      "split": "dev",
+      "question": "What kind of prediction does logistic regression make in the lesson's pumpkin example?",
+      "gold_answer": "It predicts a binary category, such as whether a pumpkin is white or not white, rather than a continuous numerical value.",
+      "topic": "2-Regression",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "52ece469d513",
+          "title": "Logistic regression to predict categories",
+          "source_path": "2-Regression\\4-Logistic\\README.md",
+          "paragraph_index": 22,
+          "start_char": 2601,
+          "end_char": 2914
+        }
+      ]
+    },
+    {
+      "question_id": "Q07",
+      "split": "dev",
+      "question": "When planning a machine-learning web app, what deployment questions should be considered about the app platform, model location, offline use, and training technology?",
+      "gold_answer": "Consider whether the target is a web or mobile app (or an IoT context), whether the model will reside in the cloud or locally, whether offline support is required, and which technology trained the model because that technology affects the available tooling.",
+      "topic": "3-Web-App",
+      "metadata_filter": {
+        "topic": "3-Web-App"
+      },
+      "gold_evidence": [
+        {
+          "document_id": "4c275bf6bac8",
+          "title": "Build a Web App to use a ML Model",
+          "source_path": "3-Web-App\\1-Web-App\\README.md",
+          "paragraph_index": 12,
+          "start_char": 945,
+          "end_char": 2483
+        }
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "split": "dev",
+      "question": "What are the two broad types of classification identified in the introductory classification lesson?",
+      "gold_answer": "The lesson identifies binary classification and multiclass classification.",
+      "topic": "4-Classification",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "8bfad143d0be",
+          "title": "Introduction to classification",
+          "source_path": "4-Classification\\1-Introduction\\README.md",
+          "paragraph_index": 5,
+          "start_char": 430,
+          "end_char": 781
+        }
+      ]
+    },
+    {
+      "question_id": "Q09",
+      "split": "dev",
+      "question": "How does the corpus define clustering, and what kind of data does it work with?",
+      "gold_answer": "Clustering is an unsupervised-learning technique that works on unlabeled data, using algorithms to group data points according to patterns found in the data.",
+      "topic": "5-Clustering",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "84bfa626609e",
+          "title": "Introduction to clustering",
+          "source_path": "5-Clustering\\1-Visualize\\README.md",
+          "paragraph_index": 2,
+          "start_char": 30,
+          "end_char": 358
+        }
+      ]
+    },
+    {
+      "question_id": "Q10",
+      "split": "dev",
+      "question": "What are the main steps in the K-Means loop after the initial centers are selected?",
+      "gold_answer": "K-Means assigns each sample to its nearest centroid, recomputes each centroid as the mean of the samples assigned to it, and repeats by comparing the new and old centroids until they stabilize.",
+      "topic": "5-Clustering",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "b078c1be5cd8",
+          "title": "K-Means clustering",
+          "source_path": "5-Clustering\\2-K-Means\\README.md",
+          "paragraph_index": 12,
+          "start_char": 1337,
+          "end_char": 1733
+        }
+      ]
+    },
+    {
+      "question_id": "Q11",
+      "split": "dev",
+      "question": "What is natural language processing (NLP), as distinguished from computational linguistics in the introductory lesson?",
+      "gold_answer": "Computational linguistics studies how computers can work with, understand, translate, and communicate with languages. NLP is a related field focused on how computers process natural, or human, languages.",
+      "topic": "6-NLP",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "7d4c7f4332c7",
+          "title": "Introduction to natural language processing",
+          "source_path": "6-NLP\\1-Introduction-to-NLP\\README.md",
+          "paragraph_index": 10,
+          "start_char": 1037,
+          "end_char": 1347
+        }
+      ]
+    },
+    {
+      "question_id": "Q12",
+      "split": "dev",
+      "question": "What is tokenization, and why can it be more difficult than simply splitting text on spaces?",
+      "gold_answer": "Tokenization splits text into tokens or words. It can be tricky because a system must account for punctuation and the word and sentence delimiters used by different languages.",
+      "topic": "6-NLP",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "5fc147800c5b",
+          "title": "Common natural language processing tasks and techniques",
+          "source_path": "6-NLP\\2-Tasks\\README.md",
+          "paragraph_index": 8,
+          "start_char": 974,
+          "end_char": 1272
+        }
+      ]
+    },
+    {
+      "question_id": "Q13",
+      "split": "dev",
+      "question": "How can machine learning be used for translation according to the translation lesson?",
+      "gold_answer": "Instead of relying only on formal grammar rules, machine learning can detect patterns across a corpus of texts in both the source and target languages; this approach can support translation.",
+      "topic": "6-NLP",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "61d55cc81a92",
+          "title": "Translation and sentiment analysis with ML",
+          "source_path": "6-NLP\\3-Translation-Sentiment\\README.md",
+          "paragraph_index": 20,
+          "start_char": 2839,
+          "end_char": 3165
+        }
+      ]
+    },
+    {
+      "question_id": "Q14",
+      "split": "dev",
+      "question": "How does the time-series lesson define a time series?",
+      "gold_answer": "A time series is a sequence of data points indexed or listed in time order, most commonly observed at successive, equally spaced points in time.",
+      "topic": "7-TimeSeries",
+      "metadata_filter": null,
+      "gold_evidence": [
+        {
+          "document_id": "96a6450030df",
+          "title": "Introduction to time series forecasting",
+          "source_path": "7-TimeSeries\\1-Introduction\\README.md",
+          "paragraph_index": 19,
+          "start_char": 2618,
+          "end_char": 3174
+        }
+      ]
+    },
+    {
+      "question_id": "Q15",
+      "split": "dev",
+      "question": "How does the real-world applications lesson describe using K-Means for credit-card fraud detection?",
+      "gold_answer": "K-Means can group credit-card transactions into clusters based on how much each transaction appears to be an outlier. The riskiest clusters can then be evaluated to distinguish potentially fraudulent from legitimate transactions.",
+      "topic": "9-Real-World",
+      "metadata_filter": {
+        "topic": "9-Real-World"
+      },
+      "gold_evidence": [
+        {
+          "document_id": "b77d107fdf74",
+          "title": "Postscript: Machine learning in the real world",
+          "source_path": "9-Real-World\\1-Applications\\README.md",
+          "paragraph_index": 10,
+          "start_char": 1444,
+          "end_char": 2100
+        }
+      ]
+    },
+    {
+      "question_id": "Q16",
+      "split": "test",
+      "question": "How does the corpus distinguish the output of linear regression from the output of logistic regression?",
+      "gold_answer": "Linear regression predicts continuous numerical values, whereas logistic regression predicts a binary category, such as white versus not white.",
+      "topic": "2-Regression",
+      "metadata_filter": {
+        "topic": "2-Regression"
+      },
+      "gold_evidence": [
+        {
+          "document_id": "52ece469d513",
+          "title": "Logistic regression to predict categories",
+          "source_path": "2-Regression\\4-Logistic\\README.md",
+          "paragraph_index": 22,
+          "start_char": 2601,
+          "end_char": 2914
+        }
+      ]
+    },
+    {
+      "question_id": "Q17",
+      "split": "test",
+      "question": "In the classification lesson, how is a classification model described in terms of input and output variables?",
+      "gold_answer": "A classification method creates a predictive model that maps the relationship between input variables and output variables.",
+      "topic": "4-Classification",
+      "metadata_filter": {
+        "topic": "4-Classification"
+      },
+      "gold_evidence": [
+        {
+          "document_id": "8bfad143d0be",
+          "title": "Introduction to classification",
+          "source_path": "4-Classification\\1-Introduction\\README.md",
+          "paragraph_index": 15,
+          "start_char": 2141,
+          "end_char": 2327
+        }
+      ]
+    },
+    {
+      "question_id": "Q18",
+      "split": "test",
+      "question": "What does the NLP lesson say part-of-speech tagging assigns to words, and what example does it give?",
+      "gold_answer": "Part-of-speech tagging labels each token as a grammatical category such as a noun, verb, or adjective. The example labels “fox” as a noun and “jumped” as a verb in the sentence about the quick red fox.",
+      "topic": "6-NLP",
+      "metadata_filter": {
+        "topic": "6-NLP"
+      },
+      "gold_evidence": [
+        {
+          "document_id": "5fc147800c5b",
+          "title": "Common natural language processing tasks and techniques",
+          "source_path": "6-NLP\\2-Tasks\\README.md",
+          "paragraph_index": 15,
+          "start_char": 2160,
+          "end_char": 2372
+        }
+      ]
+    },
+    {
+      "question_id": "Q19",
+      "split": "test",
+      "question": "Why should the test set for a time-series forecasting model cover a later time period than the training set?",
+      "gold_answer": "The test period should be later than the training period so the model does not gain information from future time periods during training.",
+      "topic": "7-TimeSeries",
+      "metadata_filter": {
+        "topic": "7-TimeSeries"
+      },
+      "gold_evidence": [
+        {
+          "document_id": "0067a52e809e",
+          "title": "Time series forecasting with ARIMA",
+          "source_path": "7-TimeSeries\\2-ARIMA\\README.md",
+          "paragraph_index": 32,
+          "start_char": 4844,
+          "end_char": 5223
+        }
+      ]
+    },
+    {
+      "question_id": "Q20",
+      "split": "test",
+      "question": "Which three core elements does the reinforcement-learning introduction identify, and how does an action affect the agent?",
+      "gold_answer": "The three elements are an agent, states, and a set of actions available in each state. Executing an action in a state leads to a reward; the example contrasts moving off a cliff for a low score with jumping to earn a positive score and stay alive.",
+      "topic": "8-Reinforcement",
+      "metadata_filter": {
+        "topic": "8-Reinforcement"
+      },
+      "gold_evidence": [
+        {
+          "document_id": "62a930ce4706",
+          "title": "Introduction to Reinforcement Learning and Q-Learning",
+          "source_path": "8-Reinforcement\\1-QLearning\\README.md",
+          "paragraph_index": 3,
+          "start_char": 229,
+          "end_char": 918
+        }
+      ]
+    }
+  ]
+}
