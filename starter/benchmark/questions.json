@@ -31,7 +31,9 @@
           "source_path": "1-Introduction\\1-intro-to-ML\\README.md",
           "paragraph_index": 24,
           "start_char": 4762,
-          "end_char": 5056
+          "end_char": 5056,
+          "normalized_start_char": 4762,
+          "normalized_end_char": 5056
         }
       ]
     },
@@ -51,7 +53,9 @@
           "source_path": "1-Introduction\\2-history-of-ML\\README.md",
           "paragraph_index": 10,
           "start_char": 1408,
-          "end_char": 2211
+          "end_char": 2211,
+          "normalized_start_char": 1408,
+          "normalized_end_char": 2211
         }
       ]
     },
@@ -69,7 +73,9 @@
           "source_path": "1-Introduction\\4-techniques-of-ML\\README.md",
           "paragraph_index": 9,
           "start_char": 900,
-          "end_char": 2487
+          "end_char": 2487,
+          "normalized_start_char": 900,
+          "normalized_end_char": 2487
         }
       ]
     },
@@ -87,7 +93,9 @@
           "source_path": "1-Introduction\\3-fairness\\README.md",
           "paragraph_index": 17,
           "start_char": 3350,
-          "end_char": 4361
+          "end_char": 4361,
+          "normalized_start_char": 3345,
+          "normalized_end_char": 4353
         }
       ]
     },
@@ -105,7 +113,9 @@
           "source_path": "2-Regression\\3-Linear\\README.md",
           "paragraph_index": 3,
           "start_char": 87,
-          "end_char": 322
+          "end_char": 322,
+          "normalized_start_char": 87,
+          "normalized_end_char": 322
         }
       ]
     },
@@ -123,7 +133,9 @@
           "source_path": "2-Regression\\4-Logistic\\README.md",
           "paragraph_index": 22,
           "start_char": 2600,
-          "end_char": 2913
+          "end_char": 2913,
+          "normalized_start_char": 2600,
+          "normalized_end_char": 2912
         }
       ]
     },
@@ -143,7 +155,9 @@
           "source_path": "3-Web-App\\1-Web-App\\README.md",
           "paragraph_index": 12,
           "start_char": 945,
-          "end_char": 2483
+          "end_char": 2483,
+          "normalized_start_char": 945,
+          "normalized_end_char": 2483
         }
       ]
     },
@@ -161,7 +175,9 @@
           "source_path": "4-Classification\\1-Introduction\\README.md",
           "paragraph_index": 5,
           "start_char": 430,
-          "end_char": 781
+          "end_char": 781,
+          "normalized_start_char": 430,
+          "normalized_end_char": 781
         }
       ]
     },
@@ -179,7 +195,9 @@
           "source_path": "5-Clustering\\1-Visualize\\README.md",
           "paragraph_index": 2,
           "start_char": 30,
-          "end_char": 357
+          "end_char": 357,
+          "normalized_start_char": 30,
+          "normalized_end_char": 357
         }
       ]
     },
@@ -197,7 +215,9 @@
           "source_path": "5-Clustering\\2-K-Means\\README.md",
           "paragraph_index": 12,
           "start_char": 1336,
-          "end_char": 1732
+          "end_char": 1732,
+          "normalized_start_char": 1336,
+          "normalized_end_char": 1731
         }
       ]
     },
@@ -215,7 +235,9 @@
           "source_path": "6-NLP\\1-Introduction-to-NLP\\README.md",
           "paragraph_index": 10,
           "start_char": 1037,
-          "end_char": 1347
+          "end_char": 1347,
+          "normalized_start_char": 1037,
+          "normalized_end_char": 1347
         }
       ]
     },
@@ -233,7 +255,9 @@
           "source_path": "6-NLP\\2-Tasks\\README.md",
           "paragraph_index": 8,
           "start_char": 974,
-          "end_char": 1272
+          "end_char": 1272,
+          "normalized_start_char": 974,
+          "normalized_end_char": 1272
         }
       ]
     },
@@ -251,7 +275,9 @@
           "source_path": "6-NLP\\3-Translation-Sentiment\\README.md",
           "paragraph_index": 20,
           "start_char": 2839,
-          "end_char": 3165
+          "end_char": 3165,
+          "normalized_start_char": 2839,
+          "normalized_end_char": 3165
         }
       ]
     },
@@ -269,7 +295,9 @@
           "source_path": "7-TimeSeries\\1-Introduction\\README.md",
           "paragraph_index": 19,
           "start_char": 2618,
-          "end_char": 3174
+          "end_char": 3174,
+          "normalized_start_char": 2618,
+          "normalized_end_char": 3174
         }
       ]
     },
@@ -289,7 +317,9 @@
           "source_path": "9-Real-World\\1-Applications\\README.md",
           "paragraph_index": 10,
           "start_char": 1444,
-          "end_char": 2100
+          "end_char": 2100,
+          "normalized_start_char": 1444,
+          "normalized_end_char": 2100
         }
       ]
     },
@@ -309,7 +339,9 @@
           "source_path": "2-Regression\\4-Logistic\\README.md",
           "paragraph_index": 22,
           "start_char": 2600,
-          "end_char": 2913
+          "end_char": 2913,
+          "normalized_start_char": 2600,
+          "normalized_end_char": 2912
         }
       ]
     },
@@ -329,7 +361,9 @@
           "source_path": "4-Classification\\1-Introduction\\README.md",
           "paragraph_index": 15,
           "start_char": 2141,
-          "end_char": 2327
+          "end_char": 2327,
+          "normalized_start_char": 2141,
+          "normalized_end_char": 2327
         }
       ]
     },
@@ -349,7 +383,9 @@
           "source_path": "6-NLP\\2-Tasks\\README.md",
           "paragraph_index": 15,
           "start_char": 2160,
-          "end_char": 2372
+          "end_char": 2372,
+          "normalized_start_char": 2160,
+          "normalized_end_char": 2372
         }
       ]
     },
@@ -369,7 +405,9 @@
           "source_path": "7-TimeSeries\\2-ARIMA\\README.md",
           "paragraph_index": 32,
           "start_char": 4844,
-          "end_char": 5223
+          "end_char": 5223,
+          "normalized_start_char": 4844,
+          "normalized_end_char": 5223
         }
       ]
     },
@@ -389,7 +427,9 @@
           "source_path": "8-Reinforcement\\1-QLearning\\README.md",
           "paragraph_index": 3,
           "start_char": 229,
-          "end_char": 918
+          "end_char": 918,
+          "normalized_start_char": 229,
+          "normalized_end_char": 918
         }
       ]
     }

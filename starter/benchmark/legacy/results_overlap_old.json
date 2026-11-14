@@ -7,7 +7,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 30.883,
+    "retrieval_time_ms": 34.482,
     "top_results": [
       {
         "rank": 1,
@@ -103,7 +103,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 23.114,
+    "retrieval_time_ms": 24.728,
     "top_results": [
       {
         "rank": 1,
@@ -199,7 +199,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 23.22,
+    "retrieval_time_ms": 23.436,
     "top_results": [
       {
         "rank": 1,
@@ -295,7 +295,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 26.652,
+    "retrieval_time_ms": 31.269,
     "top_results": [
       {
         "rank": 1,
@@ -391,7 +391,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 22.546,
+    "retrieval_time_ms": 25.146,
     "top_results": [
       {
         "rank": 1,
@@ -489,7 +489,7 @@
     },
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 36.627,
+    "retrieval_time_ms": 39.103,
     "top_results": [
       {
         "rank": 1,
@@ -585,7 +585,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 27.506,
+    "retrieval_time_ms": 24.105,
     "top_results": [
       {
         "rank": 1,
@@ -681,7 +681,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 21.206,
+    "retrieval_time_ms": 21.691,
     "top_results": [
       {
         "rank": 1,
@@ -777,7 +777,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 23.464,
+    "retrieval_time_ms": 19.327,
     "top_results": [
       {
         "rank": 1,
@@ -873,7 +873,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 28.237,
+    "retrieval_time_ms": 27.819,
     "top_results": [
       {
         "rank": 1,
@@ -969,7 +969,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 25.837,
+    "retrieval_time_ms": 20.337,
     "top_results": [
       {
         "rank": 1,
@@ -1065,7 +1065,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 28.275,
+    "retrieval_time_ms": 21.61,
     "top_results": [
       {
         "rank": 1,
@@ -1161,7 +1161,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 28.225,
+    "retrieval_time_ms": 27.751,
     "top_results": [
       {
         "rank": 1,
@@ -1257,7 +1257,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 25.307,
+    "retrieval_time_ms": 21.513,
     "top_results": [
       {
         "rank": 1,
@@ -1353,7 +1353,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 45.661,
+    "retrieval_time_ms": 21.163,
     "top_results": [
       {
         "rank": 1,
@@ -1449,7 +1449,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 33.608,
+    "retrieval_time_ms": 27.23,
     "top_results": [
       {
         "rank": 1,
@@ -1545,7 +1545,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 22.279,
+    "retrieval_time_ms": 38.086,
     "top_results": [
       {
         "rank": 1,
@@ -1641,7 +1641,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 25.098,
+    "retrieval_time_ms": 22.851,
     "top_results": [
       {
         "rank": 1,
@@ -1737,7 +1737,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 27.322,
+    "retrieval_time_ms": 23.939,
     "top_results": [
       {
         "rank": 1,
@@ -1833,7 +1833,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 21.985,
+    "retrieval_time_ms": 20.681,
     "top_results": [
       {
         "rank": 1,
@@ -1931,7 +1931,7 @@
     },
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 20.448,
+    "retrieval_time_ms": 17.573,
     "top_results": [
       {
         "rank": 1,
@@ -2027,7 +2027,7 @@
     "filters": null,
     "hit_at_1": 0,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 27.428,
+    "retrieval_time_ms": 22.211,
     "top_results": [
       {
         "rank": 1,
@@ -2123,7 +2123,7 @@
     "filters": null,
     "hit_at_1": 0,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 23.664,
+    "retrieval_time_ms": 23.565,
     "top_results": [
       {
         "rank": 1,
@@ -2219,7 +2219,7 @@
     "filters": null,
     "hit_at_1": 0,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 24.971,
+    "retrieval_time_ms": 19.457,
     "top_results": [
       {
         "rank": 1,
@@ -2315,7 +2315,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 47.093,
+    "retrieval_time_ms": 25.196,
     "top_results": [
       {
         "rank": 1,
@@ -2411,7 +2411,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 28.139,
+    "retrieval_time_ms": 21.287,
     "top_results": [
       {
         "rank": 1,
@@ -2507,7 +2507,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 27.387,
+    "retrieval_time_ms": 24.518,
     "top_results": [
       {
         "rank": 1,
@@ -2603,7 +2603,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 27.774,
+    "retrieval_time_ms": 23.713,
     "top_results": [
       {
         "rank": 1,
@@ -2699,7 +2699,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 22.581,
+    "retrieval_time_ms": 20.058,
     "top_results": [
       {
         "rank": 1,
@@ -2795,7 +2795,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 25.021,
+    "retrieval_time_ms": 21.46,
     "top_results": [
       {
         "rank": 1,
@@ -2891,7 +2891,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 28.776,
+    "retrieval_time_ms": 73.69,
     "top_results": [
       {
         "rank": 1,
@@ -2987,7 +2987,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 23.101,
+    "retrieval_time_ms": 22.134,
     "top_results": [
       {
         "rank": 1,
@@ -3083,7 +3083,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 67.559,
+    "retrieval_time_ms": 20.523,
     "top_results": [
       {
         "rank": 1,
@@ -3179,7 +3179,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 46.199,
+    "retrieval_time_ms": 41.52,
     "top_results": [
       {
         "rank": 1,
@@ -3275,7 +3275,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 42.841,
+    "retrieval_time_ms": 21.905,
     "top_results": [
       {
         "rank": 1,
@@ -3371,7 +3371,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 31.557,
+    "retrieval_time_ms": 20.445,
     "top_results": [
       {
         "rank": 1,
@@ -3467,7 +3467,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 26.889,
+    "retrieval_time_ms": 25.58,
     "top_results": [
       {
         "rank": 1,
@@ -3563,7 +3563,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 20.369,
+    "retrieval_time_ms": 41.092,
     "top_results": [
       {
         "rank": 1,
@@ -3659,7 +3659,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 23.518,
+    "retrieval_time_ms": 22.463,
     "top_results": [
       {
         "rank": 1,
@@ -3755,7 +3755,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 28.648,
+    "retrieval_time_ms": 31.743,
     "top_results": [
       {
         "rank": 1,
@@ -3851,7 +3851,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 23.778,
+    "retrieval_time_ms": 22.477,
     "top_results": [
       {
         "rank": 1,
@@ -3947,7 +3947,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 21.026,
+    "retrieval_time_ms": 25.841,
     "top_results": [
       {
         "rank": 1,
@@ -4043,7 +4043,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 27.228,
+    "retrieval_time_ms": 27.315,
     "top_results": [
       {
         "rank": 1,
@@ -4139,7 +4139,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 42.905,
+    "retrieval_time_ms": 23.165,
     "top_results": [
       {
         "rank": 1,
@@ -4237,7 +4237,7 @@
     },
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 19.357,
+    "retrieval_time_ms": 17.105,
     "top_results": [
       {
         "rank": 1,
@@ -4333,7 +4333,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 30.82,
+    "retrieval_time_ms": 25.224,
     "top_results": [
       {
         "rank": 1,
@@ -4429,7 +4429,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 28.142,
+    "retrieval_time_ms": 20.395,
     "top_results": [
       {
         "rank": 1,
@@ -4527,7 +4527,7 @@
     },
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 23.933,
+    "retrieval_time_ms": 20.152,
     "top_results": [
       {
         "rank": 1,
@@ -4623,7 +4623,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 26.973,
+    "retrieval_time_ms": 24.187,
     "top_results": [
       {
         "rank": 1,
@@ -4719,7 +4719,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 23.254,
+    "retrieval_time_ms": 21.87,
     "top_results": [
       {
         "rank": 1,
@@ -4817,7 +4817,7 @@
     },
     "hit_at_1": 1,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 21.169,
+    "retrieval_time_ms": 19.695,
     "top_results": [
       {
         "rank": 1,
@@ -4913,7 +4913,7 @@
     "filters": null,
     "hit_at_1": 0,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 24.49,
+    "retrieval_time_ms": 24.404,
     "top_results": [
       {
         "rank": 1,
@@ -5009,7 +5009,7 @@
     "filters": null,
     "hit_at_1": 0,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 23.128,
+    "retrieval_time_ms": 18.693,
     "top_results": [
       {
         "rank": 1,
@@ -5107,7 +5107,7 @@
     },
     "hit_at_1": 0,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 19.382,
+    "retrieval_time_ms": 22.352,
     "top_results": [
       {
         "rank": 1,
@@ -5203,7 +5203,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 25.911,
+    "retrieval_time_ms": 25.37,
     "top_results": [
       {
         "rank": 1,
@@ -5299,7 +5299,7 @@
     "filters": null,
     "hit_at_1": 0,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 20.632,
+    "retrieval_time_ms": 20.589,
     "top_results": [
       {
         "rank": 1,
@@ -5397,7 +5397,7 @@
     },
     "hit_at_1": 0,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 20.903,
+    "retrieval_time_ms": 19.025,
     "top_results": [
       {
         "rank": 1,
@@ -5493,7 +5493,7 @@
     "filters": null,
     "hit_at_1": 1,
     "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 45.714,
+    "retrieval_time_ms": 27.622,
     "top_results": [
       {
         "rank": 1,
@@ -5589,7 +5589,7 @@
     "filters": null,
     "hit_at_1": 0,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 23.442,
+    "retrieval_time_ms": 21.021,
     "top_results": [
       {
         "rank": 1,
@@ -5687,7 +5687,7 @@
     },
     "hit_at_1": 0,
     "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 23.994,
+    "retrieval_time_ms": 18.316,
     "top_results": [
       {
         "rank": 1,

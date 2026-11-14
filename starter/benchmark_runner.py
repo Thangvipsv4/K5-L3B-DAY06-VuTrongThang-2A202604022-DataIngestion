@@ -1,4 +1,5 @@
-﻿import csv
+﻿
+import csv
 import json
 import time
 from pathlib import Path
@@ -20,6 +21,7 @@ def overlaps(start_a, end_a, start_b, end_b):
 
 
 def hit_at_1(results, gold_evidence):
+    """Document-level Hit@1."""
     if not results:
         return 0
 
@@ -27,38 +29,95 @@ def hit_at_1(results, gold_evidence):
     return int(results[0].get("document_id") in gold_ids)
 
 
-def evidence_hit_at_3(results, gold_evidence):
+def full_evidence_hit_at_3(results, gold_evidence):
+    """Return 1 if a top-3 chunk contains an entire gold evidence span."""
     for result in results[:3]:
         metadata = result.get("metadata") or {}
         doc_id = result.get("document_id")
+
+        chunk_start = metadata.get("start_char")
+        chunk_end = metadata.get("end_char")
+
+        if chunk_start is None or chunk_end is None:
+            continue
 
         for evidence in gold_evidence:
             if doc_id != evidence["document_id"]:
                 continue
 
-            start = metadata.get("start_char")
-            end = metadata.get("end_char")
+            evidence_start = evidence["normalized_start_char"]
+            evidence_end = evidence["normalized_end_char"]
 
-            if start is None or end is None:
-                continue
-
-            if overlaps(
-                int(start),
-                int(end),
-                int(evidence["start_char"]),
-                int(evidence["end_char"]),
+            if (
+                int(chunk_start) <= int(evidence_start)
+                and int(chunk_end) >= int(evidence_end)
             ):
                 return 1
 
     return 0
 
 
+def overlap_evidence_hit_at_3(results, gold_evidence):
+    """Return 1 if a top-3 chunk overlaps any gold evidence span."""
+    for result in results[:3]:
+        metadata = result.get("metadata") or {}
+        doc_id = result.get("document_id")
+
+        chunk_start = metadata.get("start_char")
+        chunk_end = metadata.get("end_char")
+
+        if chunk_start is None or chunk_end is None:
+            continue
+
+        for evidence in gold_evidence:
+            if doc_id != evidence["document_id"]:
+                continue
+
+            evidence_start = evidence["normalized_start_char"]
+            evidence_end = evidence["normalized_end_char"]
+
+            if overlaps(
+                int(chunk_start),
+                int(chunk_end),
+                int(evidence_start),
+                int(evidence_end),
+            ):
+                return 1
+
+    return 0
+
+
+def validate_gold_evidence(questions):
+    """Check that all evidence items have valid normalized offsets."""
+    count = 0
+
+    for question in questions:
+        for evidence in question["gold_evidence"]:
+            start = evidence.get("normalized_start_char")
+            end = evidence.get("normalized_end_char")
+
+            if start is None or end is None or int(start) >= int(end):
+                raise ValueError(
+                    f"Invalid normalized offsets: {question['question_id']}"
+                )
+
+            count += 1
+
+    print(f"Validated {count} gold evidence offsets.")
+
+
 def main():
     if not QUESTIONS_FILE.exists():
-        raise FileNotFoundError(f"Missing benchmark file: {QUESTIONS_FILE}")
+        raise FileNotFoundError(
+            f"Missing benchmark file: {QUESTIONS_FILE}"
+        )
 
-    benchmark = json.loads(QUESTIONS_FILE.read_text(encoding="utf-8"))
+    benchmark = json.loads(
+        QUESTIONS_FILE.read_text(encoding="utf-8")
+    )
     questions = benchmark["questions"]
+
+    validate_gold_evidence(questions)
 
     embedder = MyEmbedder(MODEL_NAME)
     store = PgVectorStore(
@@ -99,10 +158,17 @@ def main():
                 filters=filters,
             )
 
-            elapsed_ms = (time.perf_counter() - start_time) * 1000
+            elapsed_ms = (
+                time.perf_counter() - start_time
+            ) * 1000
 
             hit1 = hit_at_1(results, gold)
-            evidence3 = evidence_hit_at_3(results, gold)
+            full_evidence3 = full_evidence_hit_at_3(
+                results, gold
+            )
+            overlap_evidence3 = overlap_evidence_hit_at_3(
+                results, gold
+            )
 
             record = {
                 "question_id": question_id,
@@ -111,7 +177,8 @@ def main():
                 "strategy": strategy,
                 "filters": filters,
                 "hit_at_1": hit1,
-                "evidence_hit_at_3": evidence3,
+                "full_evidence_hit_at_3": full_evidence3,
+                "overlap_evidence_hit_at_3": overlap_evidence3,
                 "retrieval_time_ms": round(elapsed_ms, 3),
                 "top_results": [],
             }
@@ -129,7 +196,9 @@ def main():
 
             print(
                 f"  {config_name}: "
-                f"Hit@1={hit1}, Evidence@3={evidence3}, "
+                f"Hit@1={hit1}, "
+                f"Full Evidence@3={full_evidence3}, "
+                f"Overlap Evidence@3={overlap_evidence3}, "
                 f"time={elapsed_ms:.2f} ms"
             )
 
@@ -138,7 +207,9 @@ def main():
         encoding="utf-8",
     )
 
-    with OUTPUT_CSV.open("w", newline="", encoding="utf-8-sig") as file:
+    with OUTPUT_CSV.open(
+        "w", newline="", encoding="utf-8-sig"
+    ) as file:
         fields = [
             "question_id",
             "split",
@@ -146,17 +217,25 @@ def main():
             "strategy",
             "filters",
             "hit_at_1",
-            "evidence_hit_at_3",
+            "full_evidence_hit_at_3",
+            "overlap_evidence_hit_at_3",
             "retrieval_time_ms",
         ]
 
-        writer = csv.DictWriter(file, fieldnames=fields)
+        writer = csv.DictWriter(
+            file,
+            fieldnames=fields,
+        )
         writer.writeheader()
 
         for record in records:
-            row = {key: record[key] for key in fields}
+            row = {
+                key: record[key]
+                for key in fields
+            }
             row["filters"] = json.dumps(
-                row["filters"], ensure_ascii=False
+                row["filters"],
+                ensure_ascii=False,
             )
             writer.writerow(row)
 
@@ -177,18 +256,31 @@ def main():
                 continue
 
             count = len(subset)
-            hit1_avg = sum(x["hit_at_1"] for x in subset) / count
-            evidence_avg = sum(
-                x["evidence_hit_at_3"] for x in subset
+
+            hit1_avg = sum(
+                x["hit_at_1"] for x in subset
             ) / count
+
+            full_avg = sum(
+                x["full_evidence_hit_at_3"]
+                for x in subset
+            ) / count
+
+            overlap_avg = sum(
+                x["overlap_evidence_hit_at_3"]
+                for x in subset
+            ) / count
+
             time_avg = sum(
-                x["retrieval_time_ms"] for x in subset
+                x["retrieval_time_ms"]
+                for x in subset
             ) / count
 
             print(
                 f"{config_name}: "
                 f"Hit@1={hit1_avg:.3f}, "
-                f"Evidence Hit@3={evidence_avg:.3f}, "
+                f"Full Evidence@3={full_avg:.3f}, "
+                f"Overlap Evidence@3={overlap_avg:.3f}, "
                 f"Avg retrieval={time_avg:.2f} ms"
             )
 
@@ -199,5 +291,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

@@ -6,8 +6,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 60.732,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 36.758,
     "top_results": [
       {
         "rank": 1,
@@ -102,8 +103,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 21.068,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 19.866,
     "top_results": [
       {
         "rank": 1,
@@ -198,8 +200,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 21.424,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 24.517,
     "top_results": [
       {
         "rank": 1,
@@ -294,8 +297,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 23.9,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 35.453,
     "top_results": [
       {
         "rank": 1,
@@ -390,8 +394,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 25.315,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 44.945,
     "top_results": [
       {
         "rank": 1,
@@ -488,8 +493,9 @@
       "topic": "1-Introduction"
     },
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 17.9,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 19.202,
     "top_results": [
       {
         "rank": 1,
@@ -584,8 +590,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 28.641,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 28.296,
     "top_results": [
       {
         "rank": 1,
@@ -680,8 +687,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 36.392,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 20.15,
     "top_results": [
       {
         "rank": 1,
@@ -776,8 +784,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 22.433,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 39.701,
     "top_results": [
       {
         "rank": 1,
@@ -872,8 +881,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 25.422,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 24.617,
     "top_results": [
       {
         "rank": 1,
@@ -968,8 +978,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 24.841,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 40.194,
     "top_results": [
       {
         "rank": 1,
@@ -1064,8 +1075,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 23.433,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 21.236,
     "top_results": [
       {
         "rank": 1,
@@ -1160,8 +1172,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 29.254,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 23.133,
     "top_results": [
       {
         "rank": 1,
@@ -1256,8 +1269,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 23.006,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 32.0,
     "top_results": [
       {
         "rank": 1,
@@ -1352,8 +1366,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 35.551,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 23.05,
     "top_results": [
       {
         "rank": 1,
@@ -1448,8 +1463,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 29.888,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 27.075,
     "top_results": [
       {
         "rank": 1,
@@ -1544,8 +1560,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 23.029,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 42.776,
     "top_results": [
       {
         "rank": 1,
@@ -1640,8 +1657,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 21.661,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 23.328,
     "top_results": [
       {
         "rank": 1,
@@ -1736,8 +1754,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 43.566,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 26.983,
     "top_results": [
       {
         "rank": 1,
@@ -1832,8 +1851,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 22.586,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 20.091,
     "top_results": [
       {
         "rank": 1,
@@ -1930,8 +1950,9 @@
       "topic": "3-Web-App"
     },
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 31.906,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 21.201,
     "top_results": [
       {
         "rank": 1,
@@ -2026,8 +2047,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 0,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 69.901,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 30.124,
     "top_results": [
       {
         "rank": 1,
@@ -2122,8 +2144,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 0,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 28.483,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 24.208,
     "top_results": [
       {
         "rank": 1,
@@ -2218,8 +2241,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 0,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 23.602,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 23.715,
     "top_results": [
       {
         "rank": 1,
@@ -2314,8 +2338,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 31.695,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 61.076,
     "top_results": [
       {
         "rank": 1,
@@ -2410,8 +2435,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 25.227,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 33.021,
     "top_results": [
       {
         "rank": 1,
@@ -2506,8 +2532,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 26.182,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 20.441,
     "top_results": [
       {
         "rank": 1,
@@ -2602,8 +2629,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 26.081,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 25.519,
     "top_results": [
       {
         "rank": 1,
@@ -2698,8 +2726,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 19.342,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 29.8,
     "top_results": [
       {
         "rank": 1,
@@ -2794,8 +2823,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 24.673,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 27.237,
     "top_results": [
       {
         "rank": 1,
@@ -2890,8 +2920,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 26.696,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 27.578,
     "top_results": [
       {
         "rank": 1,
@@ -2986,8 +3017,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 23.223,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 20.655,
     "top_results": [
       {
         "rank": 1,
@@ -3082,8 +3114,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 22.353,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 39.288,
     "top_results": [
       {
         "rank": 1,
@@ -3178,8 +3211,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 27.924,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 27.635,
     "top_results": [
       {
         "rank": 1,
@@ -3274,8 +3308,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 19.373,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 20.271,
     "top_results": [
       {
         "rank": 1,
@@ -3370,8 +3405,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 38.244,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 23.375,
     "top_results": [
       {
         "rank": 1,
@@ -3466,8 +3502,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 24.225,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 24.13,
     "top_results": [
       {
         "rank": 1,
@@ -3562,8 +3599,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 21.416,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 44.7,
     "top_results": [
       {
         "rank": 1,
@@ -3658,8 +3696,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 18.857,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 20.195,
     "top_results": [
       {
         "rank": 1,
@@ -3754,8 +3793,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 26.685,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 25.742,
     "top_results": [
       {
         "rank": 1,
@@ -3850,8 +3890,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 25.401,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 32.018,
     "top_results": [
       {
         "rank": 1,
@@ -3946,8 +3987,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 42.025,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 21.487,
     "top_results": [
       {
         "rank": 1,
@@ -4042,8 +4084,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 26.302,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 24.463,
     "top_results": [
       {
         "rank": 1,
@@ -4138,8 +4181,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 18.625,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 22.663,
     "top_results": [
       {
         "rank": 1,
@@ -4236,8 +4280,9 @@
       "topic": "9-Real-World"
     },
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 21.252,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 18.444,
     "top_results": [
       {
         "rank": 1,
@@ -4332,8 +4377,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 26.934,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 36.841,
     "top_results": [
       {
         "rank": 1,
@@ -4428,8 +4474,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 23.356,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 21.249,
     "top_results": [
       {
         "rank": 1,
@@ -4526,8 +4573,9 @@
       "topic": "2-Regression"
     },
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 18.181,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 17.368,
     "top_results": [
       {
         "rank": 1,
@@ -4622,8 +4670,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 29.838,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 29.843,
     "top_results": [
       {
         "rank": 1,
@@ -4718,8 +4767,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 43.056,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 23.687,
     "top_results": [
       {
         "rank": 1,
@@ -4816,8 +4866,9 @@
       "topic": "4-Classification"
     },
     "hit_at_1": 1,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 19.385,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 17.123,
     "top_results": [
       {
         "rank": 1,
@@ -4912,8 +4963,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 0,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 42.481,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 24.735,
     "top_results": [
       {
         "rank": 1,
@@ -5008,8 +5060,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 0,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 22.862,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 37.45,
     "top_results": [
       {
         "rank": 1,
@@ -5106,8 +5159,9 @@
       "topic": "6-NLP"
     },
     "hit_at_1": 0,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 16.857,
+    "full_evidence_hit_at_3": 1,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 18.448,
     "top_results": [
       {
         "rank": 1,
@@ -5202,8 +5256,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 25.159,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 25.45,
     "top_results": [
       {
         "rank": 1,
@@ -5298,8 +5353,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 0,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 34.855,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 23.34,
     "top_results": [
       {
         "rank": 1,
@@ -5396,8 +5452,9 @@
       "topic": "7-TimeSeries"
     },
     "hit_at_1": 0,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 27.751,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 19.225,
     "top_results": [
       {
         "rank": 1,
@@ -5492,8 +5549,9 @@
     "strategy": "fixed_size",
     "filters": null,
     "hit_at_1": 1,
-    "evidence_hit_at_3": 1,
-    "retrieval_time_ms": 29.491,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 1,
+    "retrieval_time_ms": 27.629,
     "top_results": [
       {
         "rank": 1,
@@ -5588,8 +5646,9 @@
     "strategy": "by_paragraph",
     "filters": null,
     "hit_at_1": 0,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 22.005,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 23.216,
     "top_results": [
       {
         "rank": 1,
@@ -5686,8 +5745,9 @@
       "topic": "8-Reinforcement"
     },
     "hit_at_1": 0,
-    "evidence_hit_at_3": 0,
-    "retrieval_time_ms": 19.812,
+    "full_evidence_hit_at_3": 0,
+    "overlap_evidence_hit_at_3": 0,
+    "retrieval_time_ms": 22.012,
     "top_results": [
       {
         "rank": 1,

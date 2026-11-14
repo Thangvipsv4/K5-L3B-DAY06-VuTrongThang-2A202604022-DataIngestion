@@ -1,8 +1,7 @@
 ﻿from src.embeddings import MyEmbedder
 from src.store import PgVectorStore
 
-DATABASE_URL = "postgresql://day6:day6_local_only@127.0.0.1/day6_lab"
-
+DATABASE_URL = "postgresql://day6:day6_local_only@127.0.0.1:55433/day6_lab"
 def main():
     embedder = MyEmbedder("sentence-transformers/all-MiniLM-L6-v2")
     store = PgVectorStore(database_url=DATABASE_URL, dimensions=384)
